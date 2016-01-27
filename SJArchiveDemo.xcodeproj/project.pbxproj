@@ -15,6 +15,12 @@
 		0921C0621C58636B005B1FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0921C0601C58636B005B1FE2 /* LaunchScreen.storyboard */; };
 		0921C06D1C58636C005B1FE2 /* SJArchiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C06C1C58636C005B1FE2 /* SJArchiveDemoTests.m */; };
 		0921C0781C58636C005B1FE2 /* SJArchiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C0771C58636C005B1FE2 /* SJArchiveDemoUITests.m */; };
+		0921C0881C5863E0005B1FE2 /* SJUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C0871C5863E0005B1FE2 /* SJUserModel.m */; };
+		0921C0941C587448005B1FE2 /* SJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C0931C587448005B1FE2 /* SJMainViewController.m */; };
+		0921C0971C587469005B1FE2 /* SJAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C0961C587469005B1FE2 /* SJAboutMeViewController.m */; };
+		0921C09A1C587686005B1FE2 /* SJArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C0991C587686005B1FE2 /* SJArchive.m */; };
+		0921C09E1C58A46B005B1FE2 /* SJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921C09C1C58A46B005B1FE2 /* SJLoginViewController.m */; };
+		0921C09F1C58A46B005B1FE2 /* SJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0921C09D1C58A46B005B1FE2 /* SJLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		0921C0731C58636C005B1FE2 /* SJArchiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJArchiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0921C0771C58636C005B1FE2 /* SJArchiveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJArchiveDemoUITests.m; sourceTree = "<group>"; };
 		0921C0791C58636C005B1FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0921C0861C5863E0005B1FE2 /* SJUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserModel.h; sourceTree = "<group>"; };
+		0921C0871C5863E0005B1FE2 /* SJUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserModel.m; sourceTree = "<group>"; };
+		0921C0921C587448005B1FE2 /* SJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMainViewController.h; sourceTree = "<group>"; };
+		0921C0931C587448005B1FE2 /* SJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMainViewController.m; sourceTree = "<group>"; };
+		0921C0951C587469005B1FE2 /* SJAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAboutMeViewController.h; sourceTree = "<group>"; };
+		0921C0961C587469005B1FE2 /* SJAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAboutMeViewController.m; sourceTree = "<group>"; };
+		0921C0981C587686005B1FE2 /* SJArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJArchive.h; sourceTree = "<group>"; };
+		0921C0991C587686005B1FE2 /* SJArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJArchive.m; sourceTree = "<group>"; };
+		0921C09B1C58A46B005B1FE2 /* SJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginViewController.h; sourceTree = "<group>"; };
+		0921C09C1C58A46B005B1FE2 /* SJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginViewController.m; sourceTree = "<group>"; };
+		0921C09D1C58A46B005B1FE2 /* SJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		0921C0511C58636B005B1FE2 /* SJArchiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0921C0851C5863BF005B1FE2 /* Classes */,
 				0921C0551C58636B005B1FE2 /* AppDelegate.h */,
 				0921C0561C58636B005B1FE2 /* AppDelegate.m */,
 				0921C0581C58636B005B1FE2 /* ViewController.h */,
@@ -138,6 +156,24 @@
 				0921C0791C58636C005B1FE2 /* Info.plist */,
 			);
 			path = SJArchiveDemoUITests;
+			sourceTree = "<group>";
+		};
+		0921C0851C5863BF005B1FE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0921C0861C5863E0005B1FE2 /* SJUserModel.h */,
+				0921C0871C5863E0005B1FE2 /* SJUserModel.m */,
+				0921C0981C587686005B1FE2 /* SJArchive.h */,
+				0921C0991C587686005B1FE2 /* SJArchive.m */,
+				0921C0921C587448005B1FE2 /* SJMainViewController.h */,
+				0921C0931C587448005B1FE2 /* SJMainViewController.m */,
+				0921C0951C587469005B1FE2 /* SJAboutMeViewController.h */,
+				0921C0961C587469005B1FE2 /* SJAboutMeViewController.m */,
+				0921C09B1C58A46B005B1FE2 /* SJLoginViewController.h */,
+				0921C09C1C58A46B005B1FE2 /* SJLoginViewController.m */,
+				0921C09D1C58A46B005B1FE2 /* SJLoginViewController.xib */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +238,7 @@
 		0921C0471C58636B005B1FE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SPIREJ;
 				TargetAttributes = {
@@ -246,6 +283,7 @@
 				0921C0621C58636B005B1FE2 /* LaunchScreen.storyboard in Resources */,
 				0921C05F1C58636B005B1FE2 /* Assets.xcassets in Resources */,
 				0921C05D1C58636B005B1FE2 /* Main.storyboard in Resources */,
+				0921C09F1C58A46B005B1FE2 /* SJLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0921C05A1C58636B005B1FE2 /* ViewController.m in Sources */,
+				0921C0881C5863E0005B1FE2 /* SJUserModel.m in Sources */,
 				0921C0571C58636B005B1FE2 /* AppDelegate.m in Sources */,
+				0921C09A1C587686005B1FE2 /* SJArchive.m in Sources */,
 				0921C0541C58636B005B1FE2 /* main.m in Sources */,
+				0921C0941C587448005B1FE2 /* SJMainViewController.m in Sources */,
+				0921C0971C587469005B1FE2 /* SJAboutMeViewController.m in Sources */,
+				0921C09E1C58A46B005B1FE2 /* SJLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJArchiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJArchiveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJArchiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJArchiveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
